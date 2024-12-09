@@ -1,5 +1,5 @@
 console.log("Hello,World");
-let name = "sanple.name";
+let name = "sample.name";
 const age = 24;
 if(age === 24){
     console.log("t");
@@ -31,3 +31,48 @@ console.log(fluits);
 console.log(fluits[1]);
 fluits[0]="りんご";
 console.log(fluits[0]);
+
+const profile = {
+    myname:"ono",
+    age:24,
+    greet:function(){
+        console.log(this.myname+"です");
+    }
+}
+profile.greet();
+
+function weekly(day) {
+    switch(day){
+        case 0:
+            return "月曜日";
+        case null:
+            return "null";
+        default :
+            return "error"
+    }
+}
+console.log(weekly(0));
+console.log(weekly(null));
+console.log(weekly("1"));
+
+let sum=(int1,int2)=>{
+    return int1 + int2;
+}
+console.log(sum(5,10));
+
+class animals {
+    constructor(animal1, animal2) {
+        this.animal1 = animal1;
+        this.animal2 = animal2;
+    }
+
+    animal (){
+        console.log(this.animal2, this.animal1);
+    }
+}
+const animals1 = new animals("cat", "dog");
+console.log(animals1);
+
+export const sum2 = (a, b) => a + b;
+
+export default animals1;
