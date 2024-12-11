@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClassName {
+public class Java {
     public static int number = 100;
 
     public static void main(String[] args) {
