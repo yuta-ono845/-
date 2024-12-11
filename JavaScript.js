@@ -1,5 +1,5 @@
-console.log("Hello,World");
 let name = "sample.name";
+console.log(name);
 const age = 24;
 if(age === 24){
     console.log("t");
