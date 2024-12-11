@@ -2,7 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Java {
-    public static int number = 100;
+    private int number = 100;
+
+    public int getNumber() {
+        return this.number;
+    }
+    public void setNumber(int number) {
+        this.number = number;
+    }
 
     //評価シート、バックエンド、No10のコード
     Java(){
@@ -12,7 +19,7 @@ public class Java {
     public static void main(String[] args) {
         
         //評価シート、バックエンド、No３のコード
-        if(number == 100) {
+        if(new Java().number == 100) {
             System.out.println("100");
         }
 
