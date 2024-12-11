@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class ClassName {
     public static int number = 100;
 
@@ -13,19 +16,14 @@ public class ClassName {
             System.out.println(i);
         }
 
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        //評価シート、バックエンド、Noのコード
-        
+        //評価シート、バックエンド、No5のコード
+        List<String> animals = new ArrayList<>();
 
+        animals.add("dog");
+        animals.add("cat");
+        animals.remove(0);
+        System.out.println(animals);
+
+        
     }
 }
