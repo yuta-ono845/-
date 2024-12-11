@@ -4,4 +4,8 @@ class sampleObject extends Java {
     Java java = new Java();
     java.hello();
   }
+
+  public static void main(String[] args) {
+    printData();
+  }
 }
