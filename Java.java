@@ -23,7 +23,10 @@ public class ClassName {
         animals.add("cat");
         animals.remove(0);
         System.out.println(animals);
+    }
 
-        
+    //評価シート、バックエンド、No6のコード
+    public static void hello() {
+        System.out.println("hello");
     }
 }
