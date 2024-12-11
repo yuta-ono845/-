@@ -4,6 +4,11 @@ import java.util.List;
 public class Java {
     public static int number = 100;
 
+    //評価シート、バックエンド、No10のコード
+    Java(){
+        System.out.println("クラスを設計図とするなら、コンストラクタは規格値");
+    }
+
     public static void main(String[] args) {
         
         //評価シート、バックエンド、No３のコード
